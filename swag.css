@@ -10,3 +10,67 @@ body {
 	padding-right:10px
 }
 @font-face{font-family:unifont;src:url(./unifont.woff) format('woff')} /* leet font */
+
+/* c000lors */
+
+a  { color: #bdffee; text-decoration: none; }
+
+table td, table td * {
+    vertical-align: top;
+}
+table, th, td {
+  border: 1px solid;
+  border-color: #ffbdef;
+  border-collapse: collapse;
+  text-align: left;
+
+}
+
+th {
+	background-color: #ffbdef;
+	color: #0f0a14; 
+}
+
+span {
+	font-family:unifont,lucida console,monospace,Monaco;
+	font-size:16px;
+	line-height:1;
+}
+
+code {
+	font-family:unifont,lucida console,monospace,Monaco;
+	font-size:16px;
+	line-height:1;
+	color: #cdbdff;
+}
+
+/* These are like markdown > quotes */
+blockquote {
+	background-color: #333333;
+}
+
+.highlight {
+	overflow: scroll;
+}
+
+c { color:#bdffcd; } /* This is a nice green if you need */
+
+h1 {
+	color: #ceffbd;
+}
+
+h2 {
+	color: #cdbdff;
+}
+
+h3 {
+	color: #ffeebd;
+}
+
+h4 {
+	color: #eebdff;
+}
+
+strong {
+	color: red; /* This is because Unifont bold isn't that bright */
+}
