@@ -54,6 +54,7 @@ blockquote {
 }
 
 n { color:#9A71F7; } /* extra purple color */
+a.n { color:#9A71F7; } /* same as */
 
 c { color:#bdffcd; } /* This is a nice green if you need */
 
