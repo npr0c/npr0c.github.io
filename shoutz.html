@@ -9,13 +9,17 @@
 <c><p>108308_ : really nice dude</p></c>
 </div>
 <audio id="syn">
-  <source src="ptsd.mp3">
-</audio>  
- <script>
+</audio>
+  <script>
     const ack = document.getElementById("syn");
+    const tracks = ["h8.mp3", "wow.mp3"];
 
-    document.body.addEventListener("click", () => {
-      ack.play();
-    });
+    function play() {                  
+    const rand = tracks[Math.floor(Math.random() * tracks.length)];    
+    ack.src = rand;                                                    
+    ack.play();
+  }
+    document.body.addEventListener("click", play);
+    ack.addEventListener("ended", play);
   </script>
 </html>
