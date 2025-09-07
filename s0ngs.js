@@ -1,5 +1,5 @@
 /* aud functions */
-<audio id="syn"></audio>
+<audio id="syn">
   /* handles loopin n stuff */
   <script>
     const ack = document.getElementById("syn");
