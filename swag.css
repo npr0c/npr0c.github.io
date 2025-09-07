@@ -53,8 +53,8 @@ blockquote {
 	overflow: scroll;
 }
 
-n a {
-  color: inherit; /* sets <n><a> to purple */
+.n {
+  color: #9A71F7;
 }
 
 c { color:#bdffcd; } /* This is a nice green if you need */
