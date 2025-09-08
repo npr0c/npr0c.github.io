@@ -1,6 +1,4 @@
-/* aud functions */
-<audio id="syn">
-  /* handles loopin n stuff */
+<audio id="syn"></audio>
   <script>
     const ack = document.getElementById("syn");
     const tracks = ["h8.mp3", "wow.mp3"];
