@@ -1,5 +1,4 @@
-<audio id="syn"></audio>
-  <script>
+/* loops and shuffles */
     const ack = document.getElementById("syn");
     const tracks = ["h8.mp3", "wow.mp3"];
 
@@ -8,6 +7,6 @@
     ack.src = rand;                                                    
     ack.play();
   }
-    document.body.addEventListener("click", play);
-    ack.addEventListener("ended", play);
-  </script>
+document.body.addEventListener("click", play);
+ack.addEventListener("ended", play);
+
